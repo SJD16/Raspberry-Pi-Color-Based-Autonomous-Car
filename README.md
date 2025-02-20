@@ -42,3 +42,10 @@ Run the following commands on your Raspberry Pi:
 sudo apt update && sudo apt upgrade
 sudo apt install python3-opencv python3-numpy
 pip install RPi.GPIO
+
+
+2️⃣ Connect Hardware
+
+    Attach the camera module to the Raspberry Pi.
+    Connect the L293D motor driver to the Raspberry Pi's GPIO pins.
+    Wire the motors to the L293D for movement control.
