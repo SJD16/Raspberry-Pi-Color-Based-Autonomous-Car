@@ -1,6 +1,7 @@
 # Raspberry-Pi-Color-Based-Autonomous-Car
 
-# 🚗 Raspberry Pi Color-Based Autonomous Car  
+** The latest main file is named VideoCarX.py, but I asked ChatGPT to clean it, so it's the second version. However, it has not been tested yet!!**
+
 
 ## 📌 Overview  
 This project is a **Raspberry Pi-powered autonomous car** that uses **computer vision** to detect colors and make driving decisions based on road rules. The system:  
