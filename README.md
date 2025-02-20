@@ -11,6 +11,15 @@ This project is a **Raspberry Pi-powered autonomous car** that uses **computer v
 
 This behavior simulates an **intelligent vehicle** following basic driving rules, similar to a real-world traffic light system.  
 
+## How It Works
+    📸 Camera Input: Captures real-time video of the track.
+    🎨 Color Detection:
+        🟢 Green at the top → Move forward
+        🔴 Red at the top → Stop
+        ⚪ White line detected at left → Turn left
+        ⚪ White line detected at right → Turn right
+    ⚡ Motor Control: The Raspberry Pi processes this information and sends commands to the L293D motor driver to control the car’s movement.
+
 ## 🛠️ Features  
 - ✅ **Color-based decision-making** (Green = Go, Red = Stop)  
 - ✅ **Real-time image processing** with OpenCV  
@@ -43,9 +52,15 @@ sudo apt update && sudo apt upgrade
 sudo apt install python3-opencv python3-numpy
 pip install RPi.GPIO
 
-
+```
 2️⃣ Connect Hardware
 
-    Attach the camera module to the Raspberry Pi.
-    Connect the L293D motor driver to the Raspberry Pi's GPIO pins.
-    Wire the motors to the L293D for movement control.
+    🛠️ Follow these steps to connect the hardware correctly:
+
+    🖼️ Attach the camera module to the Raspberry Pi.
+    🖧 Connect the L293D motor driver to the Raspberry Pi's GPIO pins.
+    ⚙️ Wire the motors to the L293D for movement control.
+
+3️⃣ Run the Code
+
+Clone the repository and execute the script:
