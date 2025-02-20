@@ -12,6 +12,9 @@ This project is a **Raspberry Pi-powered autonomous car** that uses **computer v
 
 This behavior simulates an **intelligent vehicle** following basic driving rules, similar to a real-world traffic light system.  
 
+[Watch the demo on YouTube](https://www.youtube.com/watch?v=PIqURlVeU8M)
+
+
 ## How It Works
 📸 Camera Input: Captures real-time video of the track.
 🎨 Color Detection:
