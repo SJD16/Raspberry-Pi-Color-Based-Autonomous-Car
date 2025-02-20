@@ -1,6 +1,6 @@
 # Raspberry-Pi-Color-Based-Autonomous-Car
 
-** The latest main file is named VideoCarX.py, but I asked ChatGPT to clean it, so it's the second version. However, it has not been tested yet!!**
+** The latest main file is named VideoCarX.py, but I asked ChatGPT to clean it, so it's the second version. However, it has not been tested yet!! **
 
 
 ## 📌 Overview  
@@ -36,6 +36,9 @@ To build this project, you need:
 - 🚗 Motors & Wheels  
 - 🔩 Chassis (for mounting components)  
 - 🔋 Power source (battery pack)  
+
+The circuit its shown next:
+![CarX](https://github.com/user-attachments/assets/aed69c8e-3df0-4c9d-bc47-aca952ea6489)
 
 ## 🖥️ Software Requirements  
 - Raspberry Pi OS  
