@@ -14,10 +14,11 @@ This behavior simulates an **intelligent vehicle** following basic driving rules
 ## How It Works
 📸 Camera Input: Captures real-time video of the track.
     🎨 Color Detection:
-        🟢 Green at the top → Move forward
-        🔴 Red at the top → Stop
-        ⚪ White line detected at left → Turn left
-        ⚪ White line detected at right → Turn right
+    
+    - 🟢 Green at the top → Move forward
+    - 🔴 Red at the top → Stop
+    - ⚪ White line detected at left → Turn left
+    - ⚪ White line detected at right → Turn right
     ⚡ Motor Control: The Raspberry Pi processes this information and sends commands to the L293D motor driver to control the car’s movement.
 
 ## 🛠️ Features  
