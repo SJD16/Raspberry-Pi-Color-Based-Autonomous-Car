@@ -13,7 +13,7 @@ This behavior simulates an **intelligent vehicle** following basic driving rules
 
 ## How It Works
 📸 Camera Input: Captures real-time video of the track.
-    🎨 Color Detection:
+🎨 Color Detection:
     
     - 🟢 Green at the top → Move forward
     - 🔴 Red at the top → Stop
